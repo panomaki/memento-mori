@@ -1,6 +1,6 @@
 // Set up vars
-const myBirthDay = '1988-11-01';
-const myLifeExpectancy = 80;
+const myBirthDay = '1971-11-14';
+const myLifeExpectancy = 82;
 const totalWeeksInLife = myLifeExpectancy * 52.1429; // As per the modern Gregorian calendar, one year is equal to 365 days whic is 52.1429 weeks in total
 
 /*
@@ -135,148 +135,33 @@ function write_life_event(life_event) {
 
 events = [
   {
-    'date': new Date('1995-08-14'),
-    'description': 'Tammirinteen ala-aste 1. luokka',
+    'date': new Date('1989-03-04'),
+    'description': 'Dad deceased',
     'color': '#18aedb',
   },
   {
-    'date': new Date('1997-08-11'),
-    'description': 'Koulun vaihto kristilliseen kouluun',
+    'date': new Date('2005-03-27'),
+    'description': 'Mom deceased',
     'color': '#18aedb',
   },
   {
-    'date': new Date('1999-05-07'),
-    'description': 'Ensimmäiset kotisivut nettiin',
-    'color': '#e806f8',
-  },
-  {
-    'date': new Date('2004-07-30'),
-    'description': '1. ulkomaanmatka',
-    'color': '#e806f8',
-  },
-  {
-    'date': new Date('2007-07-02'),
-    'description': 'Lakkiaiset',
+    'date': new Date('2004-03-19'),
+    'description': 'First date N',
     'color': '#18aedb',
   },
   {
-    'date': new Date('2007-06-01'),
-    'description': 'Ensitapaaminen IRCissä Veeran kanssa',
-    'color': '#f8312f',
-    'icon': '❤️',
-  },
-  {
-    'date': new Date('2007-06-11'),
-    'description': 'Siviilipalvelus alkaa',
+    'date': new Date('2007-01-19'),
+    'description': 'Marriage',
     'color': '#18aedb',
   },
   {
-    'date': new Date('2007-12-25'),
-    'description': 'Muutto omilleen',
-    'color': '#f8f806',
-  },
-  {
-    'date': new Date('2008-06-01'),
-    'description': 'Muutto Kauppakadulle',
-    'color': '#f8f806',
-  },
-  {
-    'date': new Date('2009-03-30'),
-    'description': 'Lotan syntymä',
-    'color': '#3ef806',
-  },
-  {
-    'date': new Date('2009-09-07'),
-    'description': 'Harjoitteluun Data Groupille',
+    'date': new Date('2008-01-28'),
+    'description': 'M born',
     'color': '#18aedb',
   },
   {
-    'date': new Date('2010-03-16'),
-    'description': 'Vanhempien ero',
-    'color': '#222222',
-  },
-  {
-    'date': new Date('2010-03-30'),
-    'description': 'Muutto Kangaslammelle',
-    'color': '#f8f806',
-  },
-  {
-    'date': new Date('2010-12-07'),
-    'description': 'Ensimmäinen työpaikka',
-    'color': '#18aedb',
-  },
-  {
-    'date': new Date('2013-05-02'),
-    'description': 'Muutto Rasinrinteelle',
-    'color': '#f8f806',
-  },
-  {
-    'date': new Date('2013-05-02'),
-    'description': 'Muutto Rasinrinteelle',
-    'color': '#f8f806',
-  },
-  {
-    'date': new Date('2013-08-26'),
-    'description': 'Manun syntymä',
-    'color': '#3ef806',
-  },
-  {
-    'date': new Date('2013-05-22'),
-    'description': 'Oman yrityksen perustaminen',
-    'color': '#18aedb',
-  },
-  {
-    'date': new Date('2015-08-01'),
-    'description': 'Muutto Vapaudenkadulle',
-    'color': '#f8f806',
-  },
-  {
-    'date': new Date('2008-03-28'),
-    'description': 'Kihloihin Veeran kanssa',
-    'color': '#f8312f',
-    'icon': '❤️',
-  },
-  {
-    'date': new Date('2008-07-02'),
-    'description': 'Naimisiin Veeran kanssa',
-    'color': '#f8312f',
-    'icon': '❤️',
-  },
-  {
-    'date': new Date('2018-02-07'),
-    'description': '10-vuotishääpäivä',
-    'color': '#f8312f',
-    'icon': '❤️',
-  },
-  {
-    'date': new Date('2019-01-15'),
-    'description': 'Isän kuolema',
-    'color': '#222222',
-    'icon': '💀',
-  },
-  {
-    'date': new Date('2020-08-09'),
-    'description': 'Alkoholinkäytön lopettaminen',
-    'color': '#f88b06',
-  },
-  {
-    'date': new Date('2020-09-10'),
-    'description': 'Veloista 100% eroon pääseminen',
-    'color': '#f88b06',
-  },
-  {
-    'date': new Date('2022-07-21'),
-    'description': '-20kg, paino 73kg',
-    'color': '#f88b06',
-  },
-  {
-    'date': new Date('2022-08-01'),
-    'description': 'Muutto Vaihdekujalle',
-    'color': '#f8f806',
-  },
-  {
-    'date': new Date('2023-05-22'),
-    'description': '10 vuotta yrittäjänä',
+    'date': new Date('2011-06-20'),
+    'description': 'K born',
     'color': '#18aedb',
   },
 ]
